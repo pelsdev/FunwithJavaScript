@@ -1,7 +1,7 @@
 let js = "amazing";
 if (js === "amazing") alert("JavaScript is FUN!");
 
-// coding challenge 1
+// coding challenge 1 and 2
 
 const massMark = 95;
 const heightMark = 1.88;
@@ -17,4 +17,20 @@ if (BMIMark > BMIJohn){
 } else {
     console.log(`Mark's BMI (${BMIMark}) is lesser than John's BMI (${BMIJohn})!`)
 
+}
+
+// coding challenge 3
+
+const dolphineScore = (96 + 108 + 50) / 3;
+const koalasScore = (107 + 97 + 50) / 3;
+console.log(dolphineScore, koalasScore);
+
+if (dolphineScore > koalasScore && dolphineScore >= 100){
+    console.log(`Dolphines won the trophy with the average score of(${dolphineScore})🏆!`);
+}else if (dolphineScore < koalasScore && koalasScore >= 100){
+    console.log(`koalas won the trophy with the average score of(${koalasScore})🏆!`);
+}else if (dolphineScore === koalasScore && dolphineScore >= 100 && koalasScore >= 100){
+    console.log('Both Dolphines and Koalas won the trophy🏆')
+} else {
+    console.log('There was no winner')
 }
